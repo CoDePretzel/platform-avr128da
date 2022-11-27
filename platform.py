@@ -15,7 +15,7 @@
 from platformio.public import PlatformBase
 
 
-class AtmelmegaavrPlatform(PlatformBase):
+class Avr128daPlatform(PlatformBase):
 
     def configure_default_packages(self, variables, targets):
         if not variables.get("board"):
